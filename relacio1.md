@@ -18,7 +18,7 @@ Para probar la convergencia por el método de Newton-Raphson basta notar que:
 - $f(x)<0 \ \forall x \in [a,x^* )$, luego $f(x_0)f''(x_0)>0$
 
 
-Resta probar la convergencia cuando $x_0 \in (x^\ast,1)$. Sea $g: \mathbb{R^+} \longrightarrow \mathbb{R}$ definida por $g(x)=x-\frac{f(x)}{f'(x)}$. Tenemos que $g(x_n)=x_{n+1}$. Por otro lado,
+Resta probar la convergencia en el segundo caso, cuando $x_0 \in (x^\ast,1)$. Sea $g: \mathbb{R^+} \longrightarrow \mathbb{R}$ definida por $g(x)=x-\frac{f(x)}{f'(x)}$. Tenemos que $g(x_n)=x_{n+1}$. Por otro lado,
 $$g'(x)=\frac{f(x)f''(x)}{(f''(x))^2}$$
 
 Sabemos que $f'>0$, que $f''<0$ y que $f(x)>0\ \forall x>x^\ast$. Por tanto, $g'(x)<0\ \forall x>x^\ast$. Además, $g$ es claramente continua. Entonces,
