@@ -23,7 +23,7 @@ $$g'(x)=\frac{f(x)f''(x)}{(f''(x))^2}$$
 
 Sabemos que $f'>0$, que $f''<0$ y que $f(x)>0\ \forall x>x^\ast$. Por tanto, $g'(x)<0\ \forall x>x^\ast$. Además, $g$ es claramente continua. Entonces,
 
-$$x^\ast<x_0 \leq 1 \Rightarrow g(1)=\frac{1}{2} \leq g(x_0)<g(x^\ast)=x^\ast \Rightarrow x_1 \in \left[ \frac{1}{2}, x^\ast \right) $$
+$$x^\ast<x_0 \leq 1 \Rightarrow g(1)=\frac{1}{2} \leq g(x_0)<g(x^\ast)=x^\ast \Rightarrow x_1 \in \left[ \frac{1}{2}, x^\ast \right) \subset [a,x^\ast)$$
 
 Y, por el caso anterior, tenemos la convergencia.
 
