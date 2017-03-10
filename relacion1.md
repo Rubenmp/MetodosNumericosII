@@ -42,7 +42,7 @@ Utilizamos en la ecuación $f(x)=x^3+4x^2-10$ las iteraciones de punto fijo dada
 $$x_{n+1}=\frac{2x_n^3+4x_n^2+10}{3x_n^2+8x_n}, n\geq 0$$
 
 Sumando y restando $20$ y $\frac{f(x_n)}{f'(x_n)}$ en la primera ecuación obtenemos
-$$x_{n+1}=\frac{x_n^3+20}{3x_n^2+8x_n}+\frac{f(x_n)}{f'(x_n)} = \frac{x_n^3+20}{3x_n^2+8x_n} + 2\frac{f(x_n)}{f'(x_n)}-\frac{f(x_n)}{f'(x_n)} = \frac{x_n^3+20+2(x_n^3+4x_n^2-10)}{3x_n^2+8x_n}$$
+$$x_{n+1}=\frac{x_n^3+20}{3x_n^2+8x_n}+\frac{f(x_n)}{f'(x_n)} = \frac{x_n^3+20}{3x_n^2+8x_n} + 2\frac{f(x_n)}{f'(x_n)}-\frac{f(x_n)}{f'(x_n)} = \frac{x_n^3+20+2(x_n^3+4x_n^2-10)}{3x_n^2+8x_n} - \frac{f(x_n)}{f'(x_n)}$$
 $$x_{n+1}=x_n-\frac{f(x_n)}{f'(x_n)}$$
 
 
