@@ -1,2 +1,2 @@
-# MetodosNumericosII
-Prácticas con wxMaxima de la asignatura Métodos Numéricos II en la Universidad de Granada
+# Metodos Numericos II
+Prácticas con wxMaxima para la asignatura Métodos Numéricos II en la Universidad de Granada
